@@ -1,0 +1,736 @@
+:root{
+  --color-ash: #8e8e8e;
+  --color-black: #333333; 
+  --bg-color: #f8f8f8;
+  --border-ash: #cccccc;
+
+  --font-size-big: 36px;
+  --font-size-small: 18px;
+}
+/* =========================================== Configuring the font files =========================================== */
+/* Roboto */
+@font-face {
+    font-family: 'roboto-R';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'roboto-M';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+/* Lato */
+@font-face {
+    font-family: 'lato-R';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'lato-B';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+/* =========================================== Common start =========================================== */
+body{
+  padding-top: 80px;
+  font-family: 'roboto-R';
+  font-size: 16px;
+  color: var(--color-ash);
+  overflow-x: hidden;
+}
+section{
+  scroll-margin-top: 100px;
+}
+.title_common h1{
+  margin-top: 15px;
+  margin-bottom: 40px;
+  font-family: 'lato-R';
+  font-size: 30px;
+  color: #333333;
+  text-transform: uppercase;
+}
+.bar{
+  margin: 0 auto;
+  height: 50px;
+  width: 1px;
+  background-color: var(--color-black);
+}
+.btn_common{
+  height: 50px;
+  font-family: 'roboto-M';
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0px;
+}
+.btn_common:hover{
+  border: none ;
+  background-color: var(--color-black) ;
+  color: white ;
+}
+/* =========================================== Common end =========================================== */
+/* =========================================== Header start =========================================== */
+header{
+  padding-bottom: 5px !important;
+  background-color: white;
+}
+.c_nav{}
+.logo_row{}
+.bar_header{
+  margin: 0 45% -6px;
+  height: 35px;
+}
+.logo{
+  width: 219px;
+}
+.logo h1{
+  font-family: 'lato-R';
+  font-size: 30px;
+  color: var(--color-black);
+  text-transform: uppercase;
+}
+.menu .active{
+  color: var(--color-black) !important;
+}
+.menu ul li a{
+  padding: 0 17px !important;
+  font-family: 'lato-R';
+  color: var(--color-ash) !important;
+}
+.menu ul li a:hover{
+  color: var(--color-black) !important;
+}
+.n_search{}
+.btn_search{
+  padding: 0 0 0 17px;
+  border: 0px solid transparent;
+}
+.btn_search i{
+  transition: 0.3s ease;
+}
+.btn_search i, .s_search{
+  color: var(--color-ash);
+}
+.btn_search i:hover{
+  color: var(--color-black);
+}
+.s_dm{
+  margin-top: 0px !important;
+  padding: 8px !important;
+  width: 270px;
+}
+.s_dm[data-bs-popper]{
+  top: 64px;
+  left: -234px;
+}
+.s_input:focus{
+  background-color: transparent;
+  border-color: var(--color-black) !important;
+  box-shadow: none;
+}
+.s_search{
+  width: 100%;
+  border: 1px solid var(--color-black);
+}
+.s_search:hover{
+  color: white !important;
+  background-color: var(--color-black) !important;
+}
+.s_search:focus{
+  border: 1px solid var(--color-black);
+}
+/* =========================================== Header end =========================================== */
+/* =========================================== Banner start =========================================== */
+.banner{
+  background: linear-gradient(180deg, transparent 90%, rgba(255,255,255)), url(../images/banner.jpg) no-repeat center/cover;
+}
+.banner_indicator_position {
+  right: 88%;
+  left: 6%;
+}
+.indicator_custom [data-bs-target] {
+  margin-bottom: -9px;
+  width: 3px;
+  height: 14px;
+  background-color: var(--color-ash) !important;
+  transition: 0.0s ease !important;
+}
+.indicator_custom .active{
+  height: 0.78rem;
+  background-color: var(--color-black) !important;
+  transform: scaleY(1.3);
+}
+.slider{
+  padding: 200px 0;
+}
+.slider h1{
+  font-family: 'lato-B';
+  font-size: 56px;
+  color: white;
+}
+.slider p{
+  margin: 50px 0 56px;
+  color: white;
+  line-height: 30px;
+}
+.btn_slider{
+  padding: 15px 28px;
+  width: 202px;
+  background-color: white;
+}
+.btn_prev, .btn_next{
+  top:98%;
+}
+.btn_prev{
+  left:-4.8%;
+}
+.btn_next{
+  right:77.4%;
+}
+.b_prev, .b_next{
+  color: var(--color-ash) !important;
+  text-transform: uppercase;
+}
+.b_prev, .b_next:hover{
+  color: var(--color-black) !important;
+}
+.b_prev, .b_next:focus{
+  color: var(--color-black) !important;
+}
+
+/* =========================================== Banner end =========================================== */
+/* =========================================== Welcome start =========================================== */
+.welcome{
+  padding-bottom: 100px;
+}
+.w_text{
+  padding: 0 5%;
+}
+.w_text p{
+  line-height: 30px;
+}
+.welcome_p{
+  margin: 46px 0;
+  color: var(--color-ash);
+  line-height: 27px;
+  
+}
+
+.welcome_card{
+  margin-top: 117px;
+  padding: 65px 20px 30px;
+  border: 1px solid var(--border-ash);
+  text-align: center;
+  transition: 0.3s ease;
+}
+.welcome_icon{
+  margin: -86px auto 0;
+  width: 70px;
+  height: 60px;
+  background-color: white;
+  transition: 0.3s ease;
+}
+.welcome_icon i{
+  font-size: 60px;
+  color: var(--color-ash);
+  transition: 0.3s ease;
+}
+.welcome_card h2{
+  margin-top: 30px;
+  font-size: 20px;
+  color: var(--color-black);
+  text-transform: uppercase;
+}
+.welcome_hr{
+  margin: 16px auto;
+  width: 50px;
+  height: 0.2px;
+  background-color: var(--color-ash);
+}
+.welcome_card p{
+  margin-bottom: 32px !important;
+  color: var(--color-ash);
+}
+.welcome_card a{
+  color: var(--color-ash);
+  text-decoration: none;
+  text-transform: uppercase;   
+}
+.welcome_link{
+  transition: 0.3s ease;
+}
+
+/* hover effect with multiple groupings*/
+.welcome_card:hover{
+    border: 1px solid var(--color-black);
+}
+.welcome_card:hover .welcome_icons{
+    color: var(--color-black);
+}
+.welcome_card:hover .welcome_link{
+    color: var(--color-black);
+}
+
+.welcome_icon:hover{
+    color: var(--color-black);
+}
+.welcome_icon:hover .welcome_card{
+    border: 1px solid var(--color-black);
+}
+/* =========================================== Welcome end =========================================== */
+/* =========================================== About start =========================================== */
+.about{
+  padding-bottom: 120px;
+}
+.left{}
+.about_left{}
+.right{}
+.about_right{}
+.about_title h1{
+  margin: 0 0 40px;
+}
+.about_paragraph{
+  margin-bottom: 60px !important;
+  line-height: 27px;
+}
+/* =========================================== About end =========================================== */
+/* =========================================== Recent work start =========================================== */
+.recent{
+  padding-bottom: 100px;
+  background-color: var(--bg-color);
+}
+.tab_custom{}
+.tab_custom li{
+  margin-top: 40px;
+  padding: 0 10px !important;
+}
+.btn_tab{
+  padding: 15px 11px;
+  font-family: 'roboto-R';
+  color: var(--color-ash);
+  border: 1px solid transparent;
+  transition: 0.1s ease;
+}
+.btn_tab:hover{
+  color: #333333;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+.tab_custom .active{
+  font-family: 'roboto-M';
+  color: #333333;
+  border: 1px solid #333333;
+}
+
+
+.card{
+  margin-top: 35px;
+  border: none;
+  position: relative;
+}
+.card_img{
+  transition: 0.3s ease;
+}
+.plus_icon{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  opacity: 0;
+  transition: 0.3s ease;
+}
+.plus_icon i{
+  font-size: 50px;
+  color: white;
+}
+.card-body{
+  padding: 18px 30px !important;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+.card-body h2{
+  margin-bottom: 10px;
+  font-family: 'lato-B';
+  font-size: 18px;
+  color: var(--color-black);
+  text-transform: uppercase;
+}
+.card-body p{
+  font-family: 'roboto-R';
+  color: var(--color-ash);
+  line-height: 27px;
+}
+
+/* hover effect with multiple groupings*/
+.card:hover .card_img{
+  filter: brightness(50%);
+}
+.card:hover .plus_icon{
+  opacity: 1;
+}
+.card:hover .card-body{
+  opacity: 1;
+}
+/* =========================================== Recent work end =========================================== */
+/* =========================================== Choose start ===========================================  */
+.choose{
+  padding-bottom: 100px;
+}
+.choose_title{}
+.feature{
+  margin-top: 40px;
+  border-bottom: 1px solid var(--border-ash);
+  transition: 0.3s ease;
+}
+.feature_icon{
+  font-size: 50px;
+  transition: 0.3s ease;
+}
+.feature_title h2{
+  margin: 21px 0 18px;
+  font-family: 'lato-B';
+  font-size: 19px;
+  color: var(--color-ash);
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+.feature_body{
+  margin: 8px 0 28px;
+}
+.feature_body p{
+  line-height: 27px;
+}
+
+/* hover effect with multiple groupings*/
+.feature:hover{
+  border-bottom: 1px solid var(--color-black);
+}
+.feature:hover .feature_icon{
+  color: var(--color-black);
+}
+.feature:hover .feature_title h2{
+  color: var(--color-black);
+}
+/* =========================================== Choose end ===========================================  */
+/* =========================================== People start =========================================== */ 
+.people{
+  padding-bottom: 100px;
+  background: linear-gradient(180deg, rgba(255,255,255), transparent, transparent), url(../images/banner2.jpg) no-repeat center/cover;
+}
+.portfolio{
+  margin-top: 45px;
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+.social-icons{
+  background-color: white;
+  position: absolute;
+  top: 15%;
+  left: -100%;
+  z-index: 1;
+  transition: 0.4s ease;
+}
+.social-icons a{
+  padding: 5px;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+}
+.social-icons a:first-child{
+  padding-left:20%;
+}
+.social-icons i{
+  font-size: 26px;
+  color: var(--color-ash);
+  text-align: center;
+  transition: 0.3s ease;
+}
+.portfolio-body{
+  padding: 10px 20px 20px !important;
+  background-color: white;
+}
+.portfolio-body h2{
+  font-family: 'lato-B';
+  font-size: 18px;
+  color: var(--color-black);
+  text-transform: uppercase;
+}
+.portfolio-body p{
+  font-family: 'roboto-R';
+  color: var(--color-ash);
+}
+
+/* hover effect with multiple groupings*/
+.portfolio:hover .social-icons{
+  left: 0;
+}
+.social-icons a:hover{
+  border-right: 2px solid var(--color-black);
+  background-color: var(--color-ash);
+}
+.social-icons a:hover .fa-brands{
+  color: var(--color-black) !important;
+}
+/* =========================================== People end =========================================== */ 
+/* =========================================== Price start =========================================== */ 
+.price{
+  padding-bottom: 100px;
+}
+.price_card{
+  margin-top: 60px;
+  padding: 0 8% 40px;
+  font-family: 'roboto-R';
+  color: var(--color-ash);
+  border: 1px solid var(--border-ash);
+  transition: 0.3s ease;
+}
+.price_title{
+  margin: -13px 0 23px;
+  width: fit-content;
+  padding: 0 5px;
+  background-color: white;
+}
+.price_title h2{
+  font-family: 'lato-B';
+  font-size: 20px;
+  color: var(--color-black);
+  text-transform: uppercase;
+}
+.price_card p{
+  margin-bottom: 15px;
+}
+.price_tag{
+  font-family: 'roboto-M';
+  font-size: 36px;
+  color: var(--color-black);
+}
+.price_card ul li{
+  color: var(--color-ash);
+}
+.btn_price{
+  margin-top: 32px;
+  width: 100% !important;
+  color: var(--color-ash);
+  border: 1px solid var(--border-ash);
+}
+
+/* hover effect with multiple groupings*/
+.price_card:hover{
+  border: 1px solid var(--color-black);
+}
+.price_card:hover .btn_price{
+  color: var(--color-black);
+  border: 1px solid var(--color-black);
+  background-color: var(--bg-color);
+}
+/* =========================================== Price end =========================================== */ 
+/* =========================================== Buy end =========================================== */ 
+.buy{
+  background-color: var(--bg-color);
+}
+.buy_row{}
+.buy_left{
+  padding: 35px 0;
+}
+.buy_right{
+  padding: 25px 0;
+}
+.btn_buy{
+  border: 1px solid var(--color-black);
+  background-color: transparent;
+}
+.btn_buy:hover{
+  border: 1px solid var(--color-black);
+}
+/* =========================================== Buy end =========================================== */ 
+/* =========================================== Business card start =========================================== */ 
+.business{
+  padding: 100px 0;
+}
+.business_card_all{}
+.business_card{
+  padding: 35px 25px 30px;
+  border: 1px solid var(--border-ash);
+}
+.business_img{
+  position: relative;
+}
+.business_icon{
+  position: absolute;
+  top: 13px;
+  left: 16px;
+}
+.business_icon i{
+  font-size: 30px;
+  color: var(--color-black);
+}
+.business_body{
+  overflow: auto;
+}
+.business_body h2{
+  margin-bottom: 5px;
+  font-family: 'lato-B';
+  font-size: 20px;
+  color: var(--color-black);
+  line-height: 30px;
+}
+.business_body p{}
+.b_p1{
+  margin-bottom: 5px;
+  line-height: 30px;
+}
+.b_p2{
+  margin-bottom: 15px;
+  color: var(--color-black);
+  line-height: 30px;
+}
+.b_p3{
+  margin-bottom: 0;
+  line-height: 27px;
+}
+
+/* the indicators */
+.business_indicators{
+  width: 100%;
+  height: 100%;
+  padding: 40px 14px;
+  border: 1px solid var(--border-ash);
+  background-color: var(--bg-color);
+}
+.business_indicator_position{
+  margin-bottom: 0;
+  transform: rotate(90deg);
+}
+.business_indicator_position [data-bs-target] {
+  margin-bottom: 0px;
+  width: 3px;
+  height: 14px;
+}
+.business_indicator_position .active{
+  height: 0.78rem;
+  transform: scaleY(1.4);
+}
+
+/* the sliding buttons */
+.business_btn_right{}
+.btn_business_p{}
+.business_btn_left{}
+.btn_business_n{}
+
+/* In groups */
+.business_indicator_position, .btn_business_p, .btn_business_n{
+  margin: 0 auto;
+  position: static;
+}
+.btn_business_p, .btn_business_n{
+  writing-mode: vertical-lr;
+}
+/* =========================================== Business card end =========================================== */ 
+/* =========================================== Form start =========================================== */
+.contact{
+  padding-bottom: 100px;
+  scroll-margin-top: 115px;
+}
+.form{
+  padding: 0 30px;
+  border: 1px solid var(--border-ash);
+}
+.form_title{
+  margin: -35px auto 40px;
+  padding: 0 5px;
+  width: fit-content;
+  background-color: white;
+}
+.form_common{
+  padding: 40px 24px 15px;
+  font-family: 'roboto-R';
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid var(--border-ash);
+  border-radius: 0px;
+}
+.form_common:focus {
+  color: var(--color-black);
+  background-color: transparent;
+  border-color: transparent ;
+  border-bottom: 1px solid var(--color-black);
+  box-shadow: none
+}
+::placeholder{
+  color: var(--border-ash) !important;
+}
+input:focus::placeholder, textarea:focus::placeholder {
+  /* border: none; */
+  color: var(--color-black) !important;
+}
+.form_button{
+  margin: 40px 0 !important;
+} 
+/* =========================================== Form end =========================================== */     
+/* =========================================== Footer start =========================================== */ 
+footer{
+  background: linear-gradient(180deg, rgba(255,255,255) 5%, transparent, transparent, transparent), url(../images/banner33.jpg) no-repeat center/cover;
+}    
+.footer_title h1{
+  margin-top: -6px !important;
+}
+.footer_content{
+  color: white;
+}
+.footer_icons{
+  margin-bottom:100px;
+}
+.footer_icons ul li{
+  margin-top: 30px;
+  padding: 5px 10px !important;
+  font-size: 26px;
+  border: 1px solid white;
+}
+.footer_icons ul li a{
+  color: white;
+}
+.footer_icons ul li:first-child{
+  padding: 5px 15px !important;
+}
+.footer_icons ul li:nth-child(5){
+  padding: 5px 14px !important;
+}
+.footer_icons ul li:hover{
+  color: var(--color-black);
+  background-color: white;
+  cursor: pointer;
+}
+.footer_icons ul li:hover .fa-brands{
+  color: var(--color-black) !important;
+}
+.border-bg{
+  height: 1px;
+  background-color: white;
+}
+.copyright, .footer_info{
+  padding: 30px 0;
+  color: white;
+}
+.copyright p a{
+  color: white;
+  text-decoration: none;
+}
+.footer_info ul li{
+  border-bottom: 1px solid transparent;
+  transition: 0.2s ease;
+}
+.footer_info ul li:hover{
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+.footer_info ul li a{
+  color: white;
+  text-decoration: none;
+}
+/* =========================================== Footer end =========================================== */  

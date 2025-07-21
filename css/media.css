@@ -1,0 +1,868 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* =========================================== Common start =========================================== */
+    section{
+        scroll-margin-top: 55px;
+    }
+    .title_common h1 {
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+
+    .bar {
+        height: 45px;
+    }
+
+    .btn_common {
+        padding: 6px;
+        width: 170px;
+    }
+
+    /* =========================================== Common end =========================================== */
+    /* =========================================== Header start =========================================== */
+    header {
+        padding: 0px !important;
+    }
+
+    .logo_row {
+        margin-bottom: -7px;
+    }
+
+    .bar_header {
+        margin-left: 44%;
+        height: 25px;
+    }
+
+    .logo h1 {
+        font-size: 25px;
+    }
+
+    .menu ul li a {
+        padding: 0px !important;
+        line-height: 30px;
+    }
+
+    .n_search {
+        margin-bottom: 8px;
+    }
+
+    .btn_search {
+        padding-left: 0px;
+    }
+
+    .s_dm {
+        width: 100%;
+    }
+
+    .s_dm[data-bs-popper] {
+        top: 32px;
+        left: 0px;
+    }
+
+    .s_search {
+        padding: 6px 5px;
+    }
+
+    /* =========================================== Header end =========================================== */
+    /* =========================================== Banner start =========================================== */
+    .indicator_custom {
+        right: 0%;
+        left: 0%;
+    }
+
+    .slider {
+        padding: 50px 0 100px;
+    }
+
+    .slider h1 {
+        font-size: 27px;
+    }
+
+    .slider p {
+        margin: 30px 0 36px;
+        line-height: 25px;
+    }
+
+    .btn_prev,
+    .btn_next {
+        margin-bottom: 5px;
+        top: 98%;
+    }
+
+    .btn_prev {
+        left: 0%;
+    }
+
+    .btn_next {
+        right: 0%;
+    }
+
+    /* =========================================== Banner end =========================================== */
+    /* =========================================== Welcome start =========================================== */
+    .welcome {
+        padding: 50px 0;
+    }
+
+    .welcome_card {
+        margin-top: 50px;
+        padding: 55px 15px 30px;
+    }
+
+    .welcome_icon {
+        margin: -73px auto 0;
+    }
+
+    .welcome_icon i {
+        font-size: 50px;
+    }
+
+    .welcome_card h2 {
+        margin-top: 17px;
+    }
+
+    /* =========================================== Welcome end =========================================== */
+    /* =========================================== About start =========================================== */
+    .about {
+        padding: 50px 0;
+    }
+    .about_left{
+        margin-bottom: 25px;
+    }
+    .about_title h1 {
+        margin: 25px 0;
+    }
+
+    .about_paragraph {
+        margin-bottom: 30px !important;
+    }
+
+    /* =========================================== About end =========================================== */
+    /* =========================================== Recent Work start =========================================== */
+    .recent {
+        padding: 50px 0;
+    }
+
+    .tab_custom li {
+        margin-top: 10px;
+    }
+
+    .card {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .plus_icon {
+        top: 25%;
+    }
+
+    /* =========================================== Recent Work end =========================================== */
+    /* =========================================== Choose start =========================================== */
+    .choose {
+        padding: 50px 0;
+    }
+
+    .feature {
+        margin-top: 30px;
+    }
+
+    .feature_icon {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .feature_title h2 {
+        margin: -5px 0 0;
+        text-align: center;
+    }
+
+    .feature_body {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    /* =========================================== Choose end =========================================== */
+    /* =========================================== People start =========================================== */
+    .people {
+        padding: 50px 0;
+    }
+
+    .portfolio {
+        margin: 45px 10% 0;
+    }
+
+    .social-icons {
+        top: 10%;
+    }
+
+    .social-icons i {
+        font-size: 150%;
+    }
+
+    /* =========================================== People end =========================================== */
+    /* =========================================== Price start =========================================== */
+    .price {
+        padding: 50px 0;
+    }
+
+    .price_card {
+        margin: 45px 10% 0;
+        padding: 0 5% 25px;
+    }
+
+    .price_title {
+        margin-bottom: 13px;
+    }
+
+    .price_card p {
+        margin-bottom: 5px;
+    }
+
+    .btn_price {
+        margin-top: 22px;
+    }
+
+    /* =========================================== Price end =========================================== */
+    /* =========================================== Buy start =========================================== */
+    .buy_row {
+        justify-content: center !important;
+    }
+
+    .buy_left {
+        padding: 20px 0 10px;
+        text-align: center;
+    }
+
+    .buy_right {
+        padding: 5px 0 25px;
+        text-align: center !important;
+    }
+
+    /* =========================================== Buy end =========================================== */
+    /* =========================================== Business card start =========================================== */
+    .business {
+        padding: 50px 0;
+    }
+
+    .business_card_all {
+        margin: 0 10%;
+    }
+
+    .business_icon i {
+        font-size: 20px;
+    }
+
+    .business_body {
+        margin-top: 20px;
+        height: 200px;
+        padding-right: 10px;
+        overflow-y: scroll;
+    }
+
+    .business_indicators {
+        padding: 10px 20px;
+    }
+
+    .business_indicator_position {
+        margin-bottom: 0;
+        transform: rotate(0deg);
+    }
+
+    .btn_business_p,
+    .btn_business_n {
+        margin-top: 5px;
+        writing-mode: horizontal-tb;
+    }
+
+    /* =========================================== Business card end =========================================== */
+    /* =========================================== Contact start =========================================== */
+    .contact {
+        padding-bottom: 50px;
+    }
+
+    .form {
+        margin: 0 10%;
+    }
+
+    .form_title {
+        margin: -29px auto 0px;
+    }
+
+    .form_title h1 {
+        font-size: 21px;
+    }
+
+    .form_common {
+        padding: 15px 24px 15px;
+    }
+
+    .form_button {
+        margin: 30px 0 !important;
+    }
+
+    /* =========================================== Contact end =========================================== */
+    /* =========================================== Footer start =========================================== */
+    .footer_icons {
+        margin-bottom: 50px;
+    }
+    .footer_icons ul li{
+        font-size: 14px;
+    }
+    .copyright,
+    .footer_info ul {
+        text-align: center !important;
+    }
+
+    .copyright {
+        padding-top: 25px;
+    }
+
+    .footer_info {
+        padding-top: 0px;
+        padding-bottom: 25px;
+    }
+    .footer_info ul li{
+        margin-top: 10px;
+    }
+    /* =========================================== Footer end =========================================== */
+}
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* =========================================== Common start =========================================== */
+    section{
+        scroll-margin-top: 70px;
+    }
+    .title_common h1 {
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+
+    .bar {
+        height: 45px;
+    }
+
+    .btn_common {
+        padding: 6px;
+        width: 170px;
+    }
+
+    /* =========================================== Common end =========================================== */
+    /* =========================================== Header start =========================================== */
+    header {
+        padding: 0px !important;
+    }
+
+    .logo_row {
+        margin-bottom: -7px;
+    }
+
+    .bar_header {
+        margin-left: 44%;
+        height: 25px;
+    }
+
+    .logo h1 {
+        font-size: 25px;
+    }
+
+    .menu ul li a {
+        padding: 0px !important;
+        line-height: 30px;
+    }
+
+    .n_search {
+        margin-bottom: 8px;
+    }
+
+    .btn_search {
+        padding-left: 0px;
+    }
+
+    .s_dm[data-bs-popper] {
+        top: 32px;
+        left: 0px;
+    }
+
+    /* =========================================== Header end =========================================== */
+    /* =========================================== Banner start =========================================== */
+    .indicator_custom {
+        right: 0%;
+        left: 0%;
+    }
+
+    .slider {
+        padding: 50px 0 100px;
+    }
+
+    .slider h1 {
+        font-size: 45px;
+    }
+
+    .slider p {
+        margin: 30px 0 36px;
+        line-height: 25px;
+    }
+
+    .btn_prev,
+    .btn_next {
+        margin-bottom: 5px;
+        top: 98%;
+    }
+
+    .btn_prev {
+        left: -4%;
+    }
+
+    .btn_next {
+        right: -3.5%;
+    }
+
+    /* =========================================== Banner end =========================================== */
+    /* =========================================== Welcome start =========================================== */
+    .welcome {
+        padding: 50px 0;
+    }
+
+    .welcome_card {
+        margin-top: 50px;
+        padding: 55px 15px 30px;
+    }
+
+    .welcome_icon {
+        margin: -73px auto 0;
+    }
+
+    .welcome_icon i {
+        font-size: 50px;
+    }
+
+    .welcome_card h2 {
+        margin-top: 17px;
+    }
+
+    /* =========================================== Welcome end =========================================== */
+    /* =========================================== About start =========================================== */
+    .about {
+        padding: 50px 0;
+    }
+    .about_left{
+        margin-bottom: 25px;
+    }
+    .about_title h1 {
+        margin: 25px 0;
+    }
+
+    .about_paragraph {
+        margin-bottom: 30px !important;
+    }
+
+    /* =========================================== About end =========================================== */
+    /* =========================================== Recent Work start =========================================== */
+    .recent {
+        padding: 50px 0;
+    }
+
+    .tab_custom li {
+        margin-top: 10px;
+    }
+
+    .card {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .plus_icon {
+        top: 25%;
+    }
+
+    /* =========================================== Recent Work end =========================================== */
+    /* =========================================== Choose start =========================================== */
+    .choose {
+        padding: 50px 0;
+    }
+
+    .feature {
+        margin-top: 30px;
+    }
+
+    .feature_icon {
+        font-size: 40px;
+    }
+
+    .feature_title h2 {
+        margin: 16px 0 18px;
+    }
+
+    .feature_body {
+        margin: 0px 0 18px;
+    }
+
+    /* =========================================== Choose end =========================================== */
+    /* =========================================== People start =========================================== */
+    .people {
+        padding: 50px 0;
+    }
+
+    .portfolio {
+        margin: 45px 15% 0;
+    }
+
+    /* =========================================== People end =========================================== */
+    /* =========================================== Price start =========================================== */
+    .price {
+        padding: 50px 0;
+    }
+
+    .price_card {
+        margin: 45px 15% 0;
+        padding: 0 5% 25px;
+    }
+
+    .price_title {
+        margin-bottom: 13px;
+    }
+
+    .price_card p {
+        margin-bottom: 5px;
+    }
+
+    /* =========================================== Price end =========================================== */
+    /* =========================================== Buy start =========================================== */
+    .buy_row {
+        justify-content: center !important;
+    }
+
+    .buy_left {
+        padding: 20px 0 10px;
+        text-align: center;
+    }
+
+    .buy_right {
+        padding: 5px 0 25px;
+        text-align: center !important;
+    }
+
+    /* =========================================== Buy end =========================================== */
+    /* =========================================== Business card start =========================================== */
+    .business {
+        padding: 50px 0;
+    }
+
+    .business_card_all {
+        margin: 0 15%;
+    }
+
+    .business_body {
+        margin-top: 20px;
+        height: 200px;
+        padding-right: 10px;
+        overflow-y: scroll;
+    }
+
+    .business_indicators {
+        padding: 10px 20px;
+    }
+
+    .business_indicator_position {
+        margin-bottom: 0;
+        transform: rotate(0deg);
+    }
+
+    .btn_business_p,
+    .btn_business_n {
+        margin-top: 5px;
+        writing-mode: horizontal-tb;
+    }
+
+    /* =========================================== Business card end =========================================== */
+    /* =========================================== Contact start =========================================== */
+    .contact {
+        padding-bottom: 50px;
+    }
+
+    .form {
+        margin: 0 15%;
+    }
+
+    .form_title {
+        margin-top: -31px;
+        margin-bottom: 25px;
+    }
+
+    .form_common {
+        padding: 30px 24px 15px;
+    }
+
+    /* =========================================== Contact end =========================================== */
+    /* =========================================== Footer start =========================================== */
+    .footer_icons {
+        margin-bottom: 50px;
+    }
+
+    .copyright,
+    .footer_info ul {
+        text-align: center !important;
+    }
+
+    .copyright {
+        padding-top: 10px;
+    }
+
+    .footer_info {
+        padding-bottom: 25px;
+    }
+
+    /* =========================================== Footer end =========================================== */
+}
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* =========================================== Common start =========================================== */
+    section{
+        scroll-margin-top: 75px;
+    }
+    .bar {
+        height: 45px;
+    }
+
+    /* =========================================== Common end =========================================== */
+    /* =========================================== Header start =========================================== */
+    header {
+        padding: 0px !important;
+    }
+
+    .logo_row {
+        margin-bottom: -7px;
+    }
+
+    .bar_header {
+        height: 25px;
+    }
+
+    .menu ul li a {
+        padding: 0px !important;
+        line-height: 30px;
+    }
+
+    .n_search {
+        margin-bottom: 8px;
+    }
+
+    .btn_search {
+        padding-left: 0px;
+    }
+
+    .s_dm[data-bs-popper] {
+        top: 32px;
+        left: 0px;
+    }
+
+    /* =========================================== Header end =========================================== */
+    /* =========================================== Banner start =========================================== */
+    .slider {
+        padding: 80px 0 130px;
+    }
+
+    /* =========================================== Banner end =========================================== */
+    /* =========================================== Welcome start =========================================== */
+    .welcome {
+        padding-bottom: 80px;
+    }
+
+    .welcome_card {
+        margin-top: 80px;
+        padding: 65px 30px 30px;
+    }
+
+    /* =========================================== Welcome end =========================================== */
+    /* =========================================== About start =========================================== */
+    .about {
+        padding-bottom: 80px;
+    }
+    .about_left{
+        margin-bottom: 25px;
+    }
+    .about_left img {
+        width: 100%;
+    }
+
+    .about_title h1 {
+        margin: 40px 0;
+    }
+
+    /* =========================================== About end =========================================== */
+    /* =========================================== Recent Work start =========================================== */
+    .recent {
+        padding-bottom: 80px;
+    }
+
+    .tab_custom li {
+        margin-top: 10px;
+    }
+
+    /* =========================================== Recent Work end =========================================== */
+    /* =========================================== Choose start =========================================== */
+    .choose {
+        padding-bottom: 80px;
+    }
+
+    /* =========================================== Choose end =========================================== */
+    /* =========================================== People start =========================================== */
+    .people {
+        padding-bottom: 80px;
+    }
+
+    .social-icons {
+        top: 16%;
+    }
+
+    .social-icons i {
+        font-size: 35px;
+    }
+
+    /* =========================================== People end =========================================== */
+    /* =========================================== Price start =========================================== */
+    .price {
+        padding-bottom: 80px;
+    }
+
+    /* =========================================== Price end =========================================== */
+    /* =========================================== Business card start =========================================== */
+    .business {
+        padding: 80px 0;
+    }
+
+    .business_body {
+        height: 300px;
+        padding-right: 10px;
+        overflow-y: scroll;
+    }
+
+    .business_indicators {
+        padding: 10px 20px;
+    }
+
+    .business_indicator_position {
+        margin-bottom: 0;
+        transform: rotate(0deg);
+    }
+
+    .btn_business_p,
+    .btn_business_n {
+        margin-top: 5px;
+        writing-mode: horizontal-tb;
+    }
+
+    /* =========================================== Business card end =========================================== */
+    /* =========================================== Contact start =========================================== */
+    .contact {
+        padding-bottom: 80px;
+    }
+
+    .form_title {
+        margin-bottom: 25px;
+    }
+
+    .form_common {
+        padding: 30px 24px 15px;
+    }
+
+    /* =========================================== Contact end =========================================== */
+    /* =========================================== Footer start =========================================== */
+    .footer_icons {
+        margin-bottom: 80px;
+    }
+
+    .copyright,
+    .footer_info ul {
+        text-align: center !important;
+    }
+
+    .copyright {
+        padding-top: 10px;
+    }
+
+    .footer_info {
+        padding-bottom: 25px;
+    }
+
+    /* =========================================== Footer end =========================================== */
+}
+
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* =========================================== Banner Start =========================================== */
+    .slider p {
+        padding-right: 30px;
+    }
+
+    /* =========================================== Banner Start =========================================== */
+    /* =========================================== People start =========================================== */
+    .social-icons i {
+        font-size: 18px;
+    }
+
+    /* =========================================== People end =========================================== */
+}
+
+
+
+
+
+/* Extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    /* =========================================== Banner Start =========================================== */
+    .btn_prev {
+        left: -4.5%;
+    }
+
+    /* =========================================== Banner Start =========================================== */
+}
+
+
+
+
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+    /* =========================================== Banner Start =========================================== */
+    .btn_prev {
+        left: -4.5%;
+    }
+
+    /* =========================================== Banner Start =========================================== */
+    /* =========================================== Welcome end =========================================== */
+    .w_text {
+        padding: 0 5%;
+    }
+
+    /* =========================================== Welcome end =========================================== */
+    /* =========================================== About start =========================================== */
+    .left {
+        padding-right: 0;
+    }
+
+    .right {
+        padding-left: 0;
+    }
+
+    /* =========================================== About end =========================================== */
+}
