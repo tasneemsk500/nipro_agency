@@ -691,9 +691,11 @@ footer{
   padding: 5px 10px !important;
   font-size: 26px;
   border: 1px solid white;
+  transition: 0.3s ease;
 }
 .footer_icons ul li a{
   color: white;
+  transition: 0.3s ease;
 }
 .footer_icons ul li:first-child{
   padding: 5px 15px !important;
